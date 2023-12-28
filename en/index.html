@@ -5,12 +5,232 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="stylesheet" href="css/style.css" />
-    <title>Project/Homepage</title>
+    <title>Projet/Page d'accueil</title>
+    <link rel="logopage" href="/public/icones/logo1.svg" />
 </head>
+
 <body>
-
+    <header class="header header--home">
 
     
+        <a class="headermainlogo" href="index.html">
+            <img src="/public/icones/logo1.svg" alt="logo1">
+        </a>
+        
+        <a  class="headerlanglogo" href="/en/index.html">
+            <img src="/public/icones/logoEN.svg" alt="logoEN">
+        </a>
+        
+        <button aria-controls="mainNav" @click="menuuuIsOpen = ! menuuuIsOpen"
+             class="header__menuBtnnn" x.x-transition:="classes">
+            <img src="/public/icones/menu.svg" alt="menu">
+        </button>
+        
+        <nav id="mainNav" 
+            x-show="menuuuIsOpen" 
+            x-transition.duration.800ms
+            class="menuuu"
+            >
+            <ul class="menu__list">
+
+                <li class="menu__item">
+                    <a class="menu__link" href="article1.html">Inception, exploree </a>
+                </li>
     
+                <li class="menu__item">
+                    <a class="menu__link" href="article2.html">Eames, l’audace</a>
+                </li>
+  
+                <li class="menu__item">
+                    <a class="menu__link" href="article3.html">Inception & interstellar</a>
+                </li>
+  
+                <li class="menu__item">
+                    <a class="menu__link" href="article4.html">The shooting script</a>
+                </li>
+  
+                <li class="menu__item">
+                 <a class="menu__link" href="article5.html">Nolan : cinema reinvente</a>
+                </li>
+  
+            </ul>
+  
+            <a class="logo2" href="/fr/index.html">
+                <img src="/public/icones/logo2.svg" alt="Logo2">
+            </a>
+  
+            <ul class="menu__list2">
+  
+                <li>
+                    <a href="https://www.instagram.com/nvt_scz/">
+                    <img src="/public/icones/logo insta.svg" alt="Insta">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="https://twitter.com/NathScz">
+                    <img src="/public/icones/logo twitter.svg" alt="Twiiter">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="https://www.linkedin.com/in/nathan-schwarz04/">
+                    <img src="/public/icones/logo likedin.svg" alt="Linkedin">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    
+
+
+
+        <section class="Title">
+
+            <h1 class="header__title header__title--home1">INCEPTION</h1>
+            <h1 class="header__title header__title--home2">INCEPTION</h1>
+            <h1 class="header__title header__title--home3">INCEPTION</h1>
+            <h1 class="header__title header__title--home4">INCEPTION</h1>
+            <h1 class="header__title header__title--home5">INCEPTION</h1>
+            <h1 class="header__title header__title--home6">INCEPTION</h1>
+            <h1 class="header__title header__title--home7">INCEPTION</h1>
+            <h1 class="header__title header__title--home8">INCEPTION</h1>
+            <h1 class="header__title header__title--home9">INCEPTION</h1>
+            <h1 class="header__title header__title--home10">INCEPTION</h1>
+            <h1 class="header__title header__title--home11">INCEPTION</h1>
+            <h1 class="header__title header__title--home12">INCEPTION</h1>
+            <h1 class="header__title header__title--home13">INCEPTION</h1>
+            <h1 class="header__title header__title--home14">INCEPTION</h1>
+            <h1 class="header__title header__title--home15">INCEPTION</h1>
+            <h1 class="header__title header__title--home16">INCEPTION</h1>
+            <h1 class="header__title header__title--home17">INCEPTION</h1>
+
+        </section>
+    
+        <section class="Title2">
+
+            <h1 class="header__title2 header__title--homecentregauche">"N'AI</h1>
+            <h1 class="header__title2 header__title--homecentredroit">PEUR</h1>
+            <h1 class="header__title2 header__title--homecentregauche">DE</h1>
+            <h1 class="header__title2 header__title--homecentredroit">VISER</h1>
+            <h1 class="header__title2 header__title--homecentregauche">PLUS</h1>
+            <h1 class="header__title2 header__title--homecentredroit">GROS</h1>
+
+            <img class="headerbackground"  src="/public/img/background5.webp" alt="background1">
+
+        </section>
+    
+    </header>
+
+    <main class="backgroundcolor1">
+
+
+            <h2 class="H2title">Introduction</h2>
+    
+            <div class="introposition">
+    
+                <div class="introtxt">
+                    <a href="/fr/article1.html">
+                        <p class="intropolice introtxt1">Inception</p>
+                        <p class="intropolice introtxt2"> : Un thriller psychologique complexe, où rêve et réalité s'entremêlent. </p>
+                        <p class="intropolice introtxt3"> Découvrez le chef-d'œuvre de Nolan :</p>
+                        <img class="imgtxt" src="/public/img/inception2.webp" alt="inception2">
+                    </a>
+                </div>
+    
+                <div class="introtxt">
+                    <a href="/fr/article2.html">
+                        <p class="intropolice introtxt1">Eames dans Inception</p>
+                        <p class="intropolice introtxt2"> : 'N'aie pas peur de viser plus gros', un leitmotiv audacieux.  </p>
+                        <p class="intropolice introtxt3"> Découvrez son impact :</p>
+                        <img class="imgtxt" src="/public/img/Eames4.webp" alt="inception2">
+                    </a>
+                </div>
+    
+                <div class="introtxt">
+                    <a href="/fr/article3.html">
+                        <p class="intropolice introtxt1">Inception et Interstellar</p>
+                        <p class="intropolice introtxt2"> : L'audace de repousser les limites. </p>
+                        <p class="intropolice introtxt3"> Découvrez leur puissant message commun :</p>
+                        <div class="introtxt4">
+                            <img class="imgtxt" src="/public/img/inceptioninter1.webp" alt="inception2">
+                            <img class="imgtxt" src="/public/img/inceptioninter2.webp" alt="inception2">
+                        </div>
+                        
+                    </a>
+                </div>
+    
+                <div class="introtxt">
+                    <a href="/fr/article4.html">
+                        <p class="intropolice introtxt1">“Inception : The Shooting Script”</p>
+                        <p class="intropolice introtxt2"> ouvre une porte vers l'univers complexe du film et la vision de Nolan. </p>
+                        <p class="intropolice introtxt3"> Découvrez cet outil de réflexion :</p>
+                        <img class="imgtxt" src="/public/img/book2.webp" alt="inception2">
+                    </a>
+                </div>
+    
+                <div class="introtxt">
+                    <a href="/fr/article5.html">
+                        <p class="intropolice introtxt1">Christopher Nolan</p>
+                        <p class="intropolice introtxt2"> , un réalisateur visionnaire, ayant redéfini le cinéma.</p>
+                        <p class="intropolice introtxt3"> Découvrez son influence sur l'industrie :</p>
+                        <img class="imgtxt" src="/public/img/nolan1.webp" alt="inception2">
+                    </a>
+                </div>
+    
+            </div>
+    
+    
+
+    </main>
+
+    <footer class="backgroundfooter">
+        
+            <h3 class="footertitle">PROJET MMI - IUT FRANCHE COMTE</h3>
+    
+            <div class="footerposition">
+                <a href="/fr/Contact.html">
+                    <h3 class="footertitle">CONTACT</h3>
+                </a>
+                
+                <a href="/fr/A propos.html">
+                    <h3 class="footertitle">A PROPOS</h3>
+                </a>
+               
+                <a href="/fr/Glossaire.html">
+                    <h3 class="footertitle">GLOSSAIRE</h3>
+                </a>
+                
+                <a href="/fr/Autres Projets.html">
+                    <h3 class="footertitle">AUTRES PROJETS</h3>
+                </a>
+                
+            </div>
+    
+            <h3 class="footertitle subhead">RESEAUX</h3>
+    
+            <div class="footerreseaux">
+    
+                <a href="https://www.instagram.com/nvt_scz/">
+                    <img src="/public/icones/logo insta.svg" alt="Insta">
+                </a>
+    
+                <a href="https://twitter.com/NathScz">
+                    <img src="/public/icones/logo twitter.svg" alt="Twitter">
+                </a>
+    
+                <a href="https://www.linkedin.com/in/nathan-schwarz04/">
+                    <img src="/public/icones/logo likedin.svg" alt="linkedin">
+                </a>
+    
+            </div>
+    
+            <a class="logo2" href="/fr/index.html">
+                <img src="/public/icones/logo2.svg" alt="Logo2">
+            </a>
+    
+    </footer>
+  
 </body>
+
+
 </html>

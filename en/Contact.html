@@ -5,12 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="stylesheet" href="css/style.css" />
-    <title>Project/Contact</title>
+    <title>Projet/Contact</title>
 </head>
 <body>
 
+    <header class="header header--home">
+        
+    </header>
 
+    <main class="backgroundcolor1">
+
+        <h2 class="H2title">Formulaire de contact</h2>
+
+        <form class="formulairecontact" action="/submit_form" method="post">
+
+            <div class="nomprénom">
+
+                <label for="fname"></label><br>
+                <input type="text" id="fname" name="fname" placeholder="Nom" required><br>
     
+                <label for="email"></label><br>
+                <input type="text" id="fname" name="fname" placeholder="Prénom" required><br>
+                
+            </div>
+
+            
+            <label for="email"></label><br>
+                <input type="email" id="email" name="email" placeholder="Email" required><br>
+                
+            <label for="email"></label><br>
+                <input type="text" id="fname" name="fname" placeholder="Objet" required><br>
+
+            <label for="message"></label><br>
+            <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea><br>
+
+            <button class="btn" type="submit">Envoyer</button>
+
+        </form> 
+    
+    </main>
+
+
+    <footer class="backgroundfooter">
+        
+    
+            <h3 class="footertitle">PROJET MMI - IUT FRANCHE COMTE</h3>
+    
+            <div class="footerposition">
+                <a href="/fr/Contact.html">
+                    <h3 class="footertitle">CONTACT</h3>
+                </a>
+                
+                <a href="/fr/A propos.html">
+                    <h3 class="footertitle">A PROPOS</h3>
+                </a>
+               
+                <a href="/fr/Glossaire.html">
+                    <h3 class="footertitle">GLOSSAIRE</h3>
+                </a>
+                
+                <a href="/fr/Autres Projets.html">
+                    <h3 class="footertitle">AUTRES PROJETS</h3>
+                </a>
+                
+            </div>
+    
+            <h3 class="footertitle subhead">RESEAUX</h3>
+    
+            <div class="footerreseaux">
+    
+                <a class="instagram" href="https://www.instagram.com/nvt_scz/">
+                    <img src="/public/icones/logo insta.svg" alt="Insta">
+                </a>
+    
+                <a class="twitter" href="https://twitter.com/NathScz">
+                    <img src="/public/icones/logo twitter.svg" alt="Twitter">
+                </a>
+    
+                <a  class="Linkedin" href="https://www.linkedin.com/in/nathan-schwarz04/">
+                    <img src="/public/icones/logo likedin.svg" alt="linkedin">
+                </a>
+    
+            </div>
+    
+            <a class="logo2" href="/fr/index.html">
+                <img src="/public/icones/logo2.svg" alt="Logo2">
+            </a>
+    
+        
+    </footer>
+  
     
 </body>
 </html>
