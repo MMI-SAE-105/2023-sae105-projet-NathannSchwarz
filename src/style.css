@@ -12,20 +12,22 @@ Soyez attentifs à l'ordre d'import :
 */
 
 /* Polices de caractère */
-@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+@import "/src/fonts/font.css";
 
 /* Librairies */
 @import "/src/css/vendors/normalize.css";
 
 /* Variables */
-@import "utils/variables.css";
+@import "/src/css/utils/variables.css";
 
 /* Règles générales */
-@import "base/main.css";
+@import "/src/css/base/main.css";
+@import "/src/css/base/background.css";
 @import "base/media.css";
 
 /* Règles layout */
 @import "/src/css/layout/header.css";
+@import "/src/css/layout/footer.css";
 
 
 

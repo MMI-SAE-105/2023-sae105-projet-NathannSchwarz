@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap');
+
+@font-face {
+    font-family: 'inception';
+    src: url('/src/fonts/inception_free.ttf');
+  }
+
+@font-face {
+    font-family: 'gotham';
+    src: url('/src/fonts/Gotham Black Regular.ttf');
+}

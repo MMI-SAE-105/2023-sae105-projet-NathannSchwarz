@@ -15,21 +15,25 @@
   </style>
 
 <body>
-    <header class="header header--home">
+    <header class="header header--home ">
 
-    
-        <a class="headermainlogo" href="index.html">
-            <img src="/public/icones/logo1.svg" alt="logo1">
-        </a>
+        <div class="linkpage">
+
+            <a class="headermainlogo" href="index.html">
+                <img src="/public/icones/logo1.svg" alt="logo1">
+            </a>
+            
+            <a  class="headerlanglogo" href="/en/index.html">
+                <img src="/public/icones/logoEN.svg" alt="logoEN">
+            </a>
+            
+            <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
+                <img x-show="!menuIsOpen" src="/public/icones/menu.svg" alt="menu">
+                <img x-show="menuIsOpen" src="/public/icones/croix.svg" alt="croixmenu">
+            </button>
+
+        </div>
         
-        <a  class="headerlanglogo" href="/en/index.html">
-            <img src="/public/icones/logoEN.svg" alt="logoEN">
-        </a>
-        
-        <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
-            <img x-show="!menuIsOpen" src="/public/icones/menu.svg" alt="menu">
-            <img x-show="menuIsOpen" src="/public/icones/croix.svg" alt="croixmenu">
-        </button>
         
         <nav class="menu" id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms >
 
@@ -128,7 +132,7 @@
 
             <h2 class="H2title">Introduction</h2>
     
-            <div class="introposition">
+            <section class="introposition">
     
                 <div class="introtxt">
                     <a href="/fr/article1.html">
@@ -179,7 +183,7 @@
                     </a>
                 </div>
     
-            </div>
+            </section>
     
     
 

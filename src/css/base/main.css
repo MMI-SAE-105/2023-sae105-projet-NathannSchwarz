@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.H2title{
+    font-family: var(--font1);
+    font-size: var(--text3);
+}
+
+.intropolice{
+    font-family: var(--font2);
+    font-size: var(--text8);
+}
+
+.introtxt1{
+    color: var(--red);
+}
+
+.introtxt2{
+    color: var(--white);
+}
+.introtxt3{
+    text-decoration: underline;
+    color: var(--white);
+}
+
+.articletitle{
+    font-family: var(--font2);
+    font-size: var(--text9);
+}
+
+.contenutextuel{
+
+}

@@ -1,19 +1,35 @@
 :root {
   /* Color styles */
-  --Blanc: #FFF;
-  --Noir: #000;
-  --Bleu: #06F;
+  --white: #FFFFFF;
+  --black: #000000;
+  --red: #E83614;
+  --beige: #E4D9BA;
+  --blue1: #030A2C;
+  --blue2: #294C68;
+  --blue3: #8497A7;
+  --blue4: #D7DFE0;
+  --blue5: #EEF3F6;
+
 
   /* Text-size styles */
   /* base size: text--l-regular (16px) */
-  --text1: 48px;
-  --text2: 36px;
-  --text3: 26px;
-  --text4: 18px;
-  --text5: 14px;
+  --text1: 60px;
+  --text2: 48px;
+  --text3: 40px;
+  --text4: 32px;
+  --text5: 22px;
+  --text6: 18px;
+  --text7: 16px;
+  --text8: 15px;
+  --text9: 26px;
+  
  
   /* Font-family styles */
-  --font: "Alike", sans-serif;
+ 
+  --font1 : 'inception', sans-serif;
+  --font2 : 'gotham', sans-serif;
+  --font3 : 'Akshar', sans-serif;
+
 
 
   /* Espaces */
