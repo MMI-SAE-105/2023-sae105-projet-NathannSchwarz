@@ -1,4 +1,9 @@
 .footertitle{
     font-family: var(--font1);
     font-size: var(--text5);
+    color: var(--white);
+}
+
+.subhead{
+    text-decoration: underline;
 }

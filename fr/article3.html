@@ -10,6 +10,75 @@
 </head>
 <body>
     <header class="header header--home">
+        <div class="linkpage">
+
+            <a class="headermainlogo" href="index.html">
+                <img src="/public/icones/logo1.svg" alt="logo1">
+            </a>
+            
+            <a  class="headerlanglogo" href="/en/index.html">
+                <img src="/public/icones/logoEN.svg" alt="logoEN">
+            </a>
+            
+            <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
+                <img x-show="!menuIsOpen" src="/public/icones/menu.svg" alt="menu">
+                <img x-show="menuIsOpen" src="/public/icones/croix.svg" alt="croixmenu">
+            </button>
+
+        </div>
+        
+        
+        <nav class="menu" id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms >
+
+            <ul class="menu__list">
+
+                <li class="menu__item">
+                    <a class="menu__link" href="article1.html">Inception, exploree </a>
+                </li>
+    
+                <li class="menu__item">
+                    <a class="menu__link" href="article2.html">Eames, l’audace</a>
+                </li>
+  
+                <li class="menu__item">
+                    <a class="menu__link" href="article3.html">Inception & interstellar</a>
+                </li>
+  
+                <li class="menu__item">
+                    <a class="menu__link" href="article4.html">The shooting script</a>
+                </li>
+  
+                <li class="menu__item">
+                 <a class="menu__link" href="article5.html">Nolan : cinema reinvente</a>
+                </li>
+  
+            </ul>
+  
+            <a class="logo2" href="/fr/index.html">
+                <img src="/public/icones/logo2.svg" alt="Logo2">
+            </a>
+  
+            <ul class="menu__list2">
+  
+                <li>
+                    <a href="https://www.instagram.com/nvt_scz/">
+                    <img src="/public/icones/logo insta.svg" alt="Insta">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="https://twitter.com/NathScz">
+                    <img src="/public/icones/logo twitter.svg" alt="Twiiter">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="https://www.linkedin.com/in/nathan-schwarz04/">
+                    <img src="/public/icones/logo likedin.svg" alt="Linkedin">
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <section class="Title">
 
             <h1 class="header__title header__title--home1">INCEPTION</h1>
@@ -53,7 +122,7 @@
             <h4 class="articletitle colorblack">N’ai peur du Jour Premier : “Day one”</h4>
             <div class="articleimg1">
                 <img class="articleimg1" src="/public/img/interstellar1.webp" alt="interstellar1">
-                <figcaption class="figcaptionimg1 colorblack">Affiche Interstellar</figcaption>
+                <figcaption class="figcaptionimg2">Affiche Interstellar</figcaption>
             </div>
             
         </section>
@@ -65,7 +134,7 @@
             <h4 class="articletitle colorblack">“Day One : Composition d’Hans Zimmer</h4>
             <div class="articleimg1">
                 <img class="articleimg1" src="/public/img/hanszimmer1.webp" alt="hanszimmer1">
-                <figcaption class="figcaptionimg1 colorblack">Hans ZIMMER</figcaption>
+                <figcaption class="figcaptionimg2">Hans ZIMMER</figcaption>
             </div>
             
         </section>
@@ -77,7 +146,7 @@
             <p> <strong>fin de compte, elles nous rappellent que le courage de rêver plus grand est ce qui nous pousse à explorer les frontières de l'humanité et à atteindre les étoiles.</strong> </p>
             <div class="articleimg1">
                 <img class="articleimg1" src="/public/img/interstellar2.webp" alt="interstellar2">
-                <figcaption class="figcaptionimg1">Affiche Interstellar 2</figcaption>
+                <figcaption class="figcaptionimg2">Affiche Interstellar 2</figcaption>
             </div>
             
         </section>

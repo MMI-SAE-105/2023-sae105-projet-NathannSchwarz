@@ -11,6 +11,75 @@
 <body>
 
     <header class="header header--home">
+        <div class="linkpage">
+
+            <a class="headermainlogo" href="index.html">
+                <img src="/public/icones/logo1.svg" alt="logo1">
+            </a>
+            
+            <a  class="headerlanglogo" href="/en/index.html">
+                <img src="/public/icones/logoEN.svg" alt="logoEN">
+            </a>
+            
+            <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
+                <img x-show="!menuIsOpen" src="/public/icones/menu.svg" alt="menu">
+                <img x-show="menuIsOpen" src="/public/icones/croix.svg" alt="croixmenu">
+            </button>
+
+        </div>
+        
+        
+        <nav class="menu" id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms >
+
+            <ul class="menu__list">
+
+                <li class="menu__item">
+                    <a class="menu__link" href="article1.html">Inception, exploree </a>
+                </li>
+    
+                <li class="menu__item">
+                    <a class="menu__link" href="article2.html">Eames, l’audace</a>
+                </li>
+  
+                <li class="menu__item">
+                    <a class="menu__link" href="article3.html">Inception & interstellar</a>
+                </li>
+  
+                <li class="menu__item">
+                    <a class="menu__link" href="article4.html">The shooting script</a>
+                </li>
+  
+                <li class="menu__item">
+                 <a class="menu__link" href="article5.html">Nolan : cinema reinvente</a>
+                </li>
+  
+            </ul>
+  
+            <a class="logo2" href="/fr/index.html">
+                <img src="/public/icones/logo2.svg" alt="Logo2">
+            </a>
+  
+            <ul class="menu__list2">
+  
+                <li>
+                    <a href="https://www.instagram.com/nvt_scz/">
+                    <img src="/public/icones/logo insta.svg" alt="Insta">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="https://twitter.com/NathScz">
+                    <img src="/public/icones/logo twitter.svg" alt="Twiiter">
+                    </a>
+                </li>
+    
+                <li>
+                    <a href="https://www.linkedin.com/in/nathan-schwarz04/">
+                    <img src="/public/icones/logo likedin.svg" alt="Linkedin">
+                    </a>
+                </li>
+            </ul>
+        </nav>
         <section class="Title">
 
             <h1 class="header__title header__title--home1">INCEPTION</h1>
@@ -49,7 +118,7 @@
     <main class="backgroundcolor3">
 
         <section class="articleintro">
-            <h4 class="articletitle">"N'aie pas peur de viser plus gros" </h4>
+            <h4 class="articletitle beige">"N'aie pas peur de viser plus gros" </h4>
             <div class="articleimg1">
                 <img class="articleimg1" src="/public/img/Eames1.webp" alt="Eames1">
                 <figcaption class="figcaptionimg1">Eames dans une voiture</figcaption>
@@ -57,19 +126,19 @@
             
         </section>
 
-        <p class="contenutextuel">Réplique prononcée par le personnage Eames, interprété par Tom Hardy, est une phrase qui résonne profondément dans l'esprit des spectateurs. Cette réplique a un impact puissant et symbolique tout au long du film, reflétant non seulement le caractère audacieux du personnage d'Eames, mais aussi les thèmes centraux du film lui-même.</p>
-        <p class="contenutextuel">Eames est un membre de l'équipe de Dom Cobb (Leonardo DiCaprio) chargée de réaliser des opérations de manipulation de rêves complexes. Son rôle est essentiellement de se transformer en d'autres personnes dans les rêves pour tromper les projections de l'esprit. Il est connu pour sa personnalité audacieuse, son sens de l'humour sarcastique et son habileté à penser rapidement dans des situations dangereuses.</p>
+        <p class="contenutextuel white">Réplique prononcée par le personnage Eames, interprété par Tom Hardy, est une phrase qui résonne profondément dans l'esprit des spectateurs. Cette réplique a un impact puissant et symbolique tout au long du film, reflétant non seulement le caractère audacieux du personnage d'Eames, mais aussi les thèmes centraux du film lui-même.</p>
+        <p class="contenutextuel white">Eames est un membre de l'équipe de Dom Cobb (Leonardo DiCaprio) chargée de réaliser des opérations de manipulation de rêves complexes. Son rôle est essentiellement de se transformer en d'autres personnes dans les rêves pour tromper les projections de l'esprit. Il est connu pour sa personnalité audacieuse, son sens de l'humour sarcastique et son habileté à penser rapidement dans des situations dangereuses.</p>
 
         <div class="articleimg2">
             <img src="/public/img/Eames3.webp" alt="Eames3">
-            <figcaption class="figcaptionimg2">Eames et Arthur</figcaption>
+            <figcaption class="figcaptionimg1">Eames et Arthur</figcaption>
         </div>
 
-        <p class="contenutextuel">La réplique "N'aie pas peur de viser plus gros" est prononcée par Eames lors d'une scène d'action cruciale où l'équipe se trouve dans un rêve en train d'échapper à des gardes ennemis. Dans cette scène, Eames dévoile soudainement un lance-grenades impressionnant et puissant, surprenant ses coéquipiers. Cette réplique capture l'esprit téméraire d'Eames et son attitude intrépide face à l'adversité.</p>
-        <p class="contenutextuel">Au-delà de son contexte immédiat, cette réplique prend une signification plus profonde dans le cadre de l'ensemble du film. Inception explore des thèmes tels que la réalité, la perception et la manipulation de la conscience, et Eames incarne parfaitement la notion de repousser les limites de ce qui est possible. Il incite les autres membres de l'équipe, ainsi que le public, à envisager des possibilités plus vastes, à oser rêver plus grand.</p>
+        <p class="contenutextuel white">La réplique "N'aie pas peur de viser plus gros" est prononcée par Eames lors d'une scène d'action cruciale où l'équipe se trouve dans un rêve en train d'échapper à des gardes ennemis. Dans cette scène, Eames dévoile soudainement un lance-grenades impressionnant et puissant, surprenant ses coéquipiers. Cette réplique capture l'esprit téméraire d'Eames et son attitude intrépide face à l'adversité.</p>
+        <p class="contenutextuel white">Au-delà de son contexte immédiat, cette réplique prend une signification plus profonde dans le cadre de l'ensemble du film. Inception explore des thèmes tels que la réalité, la perception et la manipulation de la conscience, et Eames incarne parfaitement la notion de repousser les limites de ce qui est possible. Il incite les autres membres de l'équipe, ainsi que le public, à envisager des possibilités plus vastes, à oser rêver plus grand.</p>
 
         <section class="articleintro">
-            <h4 class="articletitle">Réplique en Harmonie du message </h4>
+            <h4 class="articletitle beige">Réplique en Harmonie du message </h4>
             <div class="articleimg1">
                 <img class="articleimg1" src="/public/img/Eames2.webp" alt="inception1">
                 <figcaption class="figcaptionimg1">Eames dans un fauteil</figcaption>
@@ -77,8 +146,8 @@
             
         </section>
 
-        <p class="contenutextuel">La réalité elle-même. Les personnages se trouvent constamment confrontés à des défis et à des doutes sur ce qui est réel et ce qui ne l'est pas. Dans cet univers de rêves imbriqués, la frontière entre le possible et l'impossible est floue, et "N'aie pas peur de viser plus gros" devient une invitation à remettre en question les limites de la réalité.</p>
-        <p class="contenutextuel">En fin de compte, la réplique d'Eames dans Inception transcende son contexte narratif pour devenir un leitmotiv du film. Elle incarne l'idée que l'audace, la créativité et la détermination sont essentielles pour accomplir des exploits extraordinaires. Elle encourage les spectateurs à envisager des horizons plus vastes, à se libérer des contraintes de la pensée conventionnelle, et à rêver sans limite. C'est une invitation à explorer l'inconnu et à embrasser l'incertitude, ce qui est une métaphore puissante pour le voyage que nous entreprenons tous lorsque nous nous aventurons dans les recoins les plus profonds de notre esprit.</p>
+        <p class="contenutextuel white">La réalité elle-même. Les personnages se trouvent constamment confrontés à des défis et à des doutes sur ce qui est réel et ce qui ne l'est pas. Dans cet univers de rêves imbriqués, la frontière entre le possible et l'impossible est floue, et "N'aie pas peur de viser plus gros" devient une invitation à remettre en question les limites de la réalité.</p>
+        <p class="contenutextuel white">En fin de compte, la réplique d'Eames dans Inception transcende son contexte narratif pour devenir un leitmotiv du film. Elle incarne l'idée que l'audace, la créativité et la détermination sont essentielles pour accomplir des exploits extraordinaires. Elle encourage les spectateurs à envisager des horizons plus vastes, à se libérer des contraintes de la pensée conventionnelle, et à rêver sans limite. C'est une invitation à explorer l'inconnu et à embrasser l'incertitude, ce qui est une métaphore puissante pour le voyage que nous entreprenons tous lorsque nous nous aventurons dans les recoins les plus profonds de notre esprit.</p>
        
     </main>
 

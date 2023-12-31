@@ -2,3 +2,27 @@
     background-color: var(--black);
     
 }
+
+.backgroundcolor1{
+    background-color: var(--blue2);
+}
+
+.backgroundcolor2{
+    background-color: var(--blue1);
+}
+
+.backgroundcolor3{
+    background-color: var(--blue2);
+}
+
+.backgroundcolor4{
+    background-color: var(--blue3);
+}
+
+.backgroundcolor5{
+    background-color: var(--blue4);
+}
+
+.backgroundcolor6{
+    background-color: var(--blue5);
+}

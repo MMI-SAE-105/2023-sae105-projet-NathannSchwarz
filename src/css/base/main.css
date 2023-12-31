@@ -19,6 +19,7 @@ a{
 .H2title{
     font-family: var(--font1);
     font-size: var(--text3);
+    color: var(--white);
 }
 
 .intropolice{
@@ -44,5 +45,25 @@ a{
 }
 
 .contenutextuel{
+    font-family: var(--font3);
+    font-size: var(--text6);
+}
 
+.figcaptionimg1{
+    font-family: var(--font2);
+    font-size: var(--text8);
+    color: var(--beige);
+}
+
+.figcaptionimg2{
+    font-family: var(--font2);
+    font-size: var(--text8);
+}
+
+.white{
+    color: var(--white);
+}
+
+.beige{
+    color: var(--beige);
 }
