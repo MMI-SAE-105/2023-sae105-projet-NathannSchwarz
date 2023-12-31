@@ -25,9 +25,8 @@ Soyez attentifs à l'ordre d'import :
 @import "base/media.css";
 
 /* Règles layout */
-@import "layout/header.css";
-@import "layout/footer.css";
-@import "layout/section.css";
+@import "/src/css/layout/header.css";
+
 
 
 /* Règles composants */
