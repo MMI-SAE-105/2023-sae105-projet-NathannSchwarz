@@ -1,18 +1,54 @@
 .menu{
-    position: fixed;
-    top: 30vh;
-    left: 30px;
-    width: 5vw;
-    height: 20vh;
-    background: #ffffff00;
-    display: grid;
-    place-content: center;
+    position: absolute;
+    top: 10vh;
+    background-color: var(--black);
+    overflow: hidden;
+
   }
+  
   .header__menuBtn{
     position: relative;
     z-index: 10;
   }
+
   .noscroll,
   .noscroll body{
     overflow: hidden;
+  }
+
+  .headertitlemenu{
+    position: relative;
+    align-items: center;
+    font-family: var(--font1);
+    font-size: var(--text5);
+    color: var(--beige);
+    height: 40px;
+    width: 390px;
+    display: flex;
+    padding-left: 25px;
+    
+  }
+
+  .logo2{
+    position: relative;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    padding-left: 145px;
+    padding-top: 110px;
+    padding-bottom: 85px;
+    
+  }
+
+  .menutitle{
+    position: relative;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    padding-left: 135px;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    font-family: var(--font1);
+    font-size: var(--text3);
+    color: var(--beige);
   }
