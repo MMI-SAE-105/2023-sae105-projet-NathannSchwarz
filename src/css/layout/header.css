@@ -11,12 +11,37 @@
 
 .linkpage{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-between; 
+    background-color: var(--white);
+    padding-left: 25px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
 }
     
-
-
+.langmenu{
+    display: flex;
+    position: relative;
     
-
     
+}
+
+.taillemenu1{
+    height: 19px;
+   
+}
+
+.taillemenu2{
+    height: 23px;   
+    width: 29px;
+}
+    
+.headerlanglogo{
+    display: flex;
+    position: inherit;
+    bottom: 2px;
+    margin-right: 20px;
+}
