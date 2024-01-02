@@ -1,7 +1,6 @@
 .header__title{
     font-family: var(--font1);
     font-size: var(--text2);
-
 }
 
 .header__title2{
@@ -9,3 +8,15 @@
     font-size: var(--text2);
     color: var(--beige);
 }
+
+.linkpage{
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+    
+
+
+    
+
+    

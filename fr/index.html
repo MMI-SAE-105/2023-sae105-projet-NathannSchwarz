@@ -22,15 +22,18 @@
             <a class="headermainlogo" href="index.html">
                 <img src="/public/icones/logo1.svg" alt="logo1">
             </a>
+
+            <div class="langmenu">
+                <a  class="headerlanglogo" href="/en/index.html">
+                    <img src="/public/icones/logoEN.svg" alt="logoEN">
+                </a>
+                
+                <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
+                    <img x-show="!menuIsOpen" src="/public/icones/menu.svg" alt="menu">
+                    <img x-show="menuIsOpen" src="/public/icones/croix.svg" alt="croixmenu">
+                </button>
+            </div>
             
-            <a  class="headerlanglogo" href="/en/index.html">
-                <img src="/public/icones/logoEN.svg" alt="logoEN">
-            </a>
-            
-            <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
-                <img x-show="!menuIsOpen" src="/public/icones/menu.svg" alt="menu">
-                <img x-show="menuIsOpen" src="/public/icones/croix.svg" alt="croixmenu">
-            </button>
 
         </div>
         

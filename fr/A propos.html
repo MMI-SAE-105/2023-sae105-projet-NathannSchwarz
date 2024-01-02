@@ -12,6 +12,56 @@
 
     <header class="header header--home">
         
+        <div class="linkpage">
+
+            <a class="headermainlogo" href="index.html">
+                <img src="/public/icones/logo1.svg" alt="logo1">
+            </a>
+            
+            <div class="langmenu">
+                <a  class="headerlanglogo" href="/en/index.html">
+                    <img src="/public/icones/logoEN.svg" alt="logoEN">
+                </a>
+                
+                <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
+                    <img x-show="!menuIsOpen" src="/public/icones/menu.svg" alt="menu">
+                    <img x-show="menuIsOpen" src="/public/icones/croix.svg" alt="croixmenu">
+                </button>
+            </div>
+
+        </div>
+        
+        
+        <nav class="menu" id="mainNav" x-show="menuIsOpen" x-transition.duration.800ms >
+
+            <ul class="menu__list">
+
+                <li class="menu__item">
+                    <a class="menu__link" href="article1.html">Inception, exploree </a>
+                </li>
+    
+                <li class="menu__item">
+                    <a class="menu__link" href="article2.html">Eames, l’audace</a>
+                </li>
+  
+                <li class="menu__item">
+                    <a class="menu__link" href="article3.html">Inception & interstellar</a>
+                </li>
+  
+                <li class="menu__item">
+                    <a class="menu__link" href="article4.html">The shooting script</a>
+                </li>
+  
+                <li class="menu__item">
+                 <a class="menu__link" href="article5.html">Nolan : cinema reinvente</a>
+                </li>
+  
+            </ul>
+  
+            <a class="logo2" href="/fr/index.html">
+                <img src="/public/icones/logo2.svg" alt="Logo2">
+            </a>
+  
     </header>
 
     <main class="backgroundcolor1">
