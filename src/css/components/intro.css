@@ -1,9 +1,23 @@
+
 .header__title--home1{
     color:var(--red);
+    position: absolute;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space: nowrap;
+    left: 30px;
 }
 
 .header__title--home2{
     color:var(--red);
+    color:var(--red);
+    position: absolute;
+    text-align: center;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    white-space: nowrap;
+    left: 10px;
 }
 
 .header__title--home3{
@@ -66,4 +80,9 @@
 
 .header__title--home18{
     color:var(--blue4);
+}
+
+
+.headerbackground{
+    
 }
