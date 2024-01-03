@@ -1,18 +1,21 @@
 .backgroundfooter{
     background-color: var(--black);
-    
+    padding-bottom: 10px;
 }
 
 .backgroundcolor1{
     background-color: var(--blue2);
+    padding-bottom: 60px;
 }
 
 .backgroundcolor2{
     background-color: var(--blue1);
+    padding-bottom: 10px;
 }
 
 .backgroundcolor3{
     background-color: var(--blue2);
+    padding-bottom: 10px;
 }
 
 .backgroundcolor4{
