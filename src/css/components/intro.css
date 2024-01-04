@@ -245,6 +245,11 @@
     position: absolute;
 }
 
+.Title3{
+    transform: translateY(192px);
+    position: absolute;
+}
+
 .header__title--homecentregauche{
     transform: translateX(61px); 
     text-align: right;
@@ -253,4 +258,48 @@
 .header__title--homecentredroit{
     transform: translateX(176px); 
     text-align: left;
+}
+
+.header__title--homecentre{
+    transform: translateX(75px); 
+    text-align: center;
+}
+
+
+.intro--adjustment1{
+    transform: translateX(-10px); 
+}
+
+.intro--adjustment2{
+    transform: translateX(60px); 
+}
+
+.intro--adjustment3{
+    transform: translateX(-42px); 
+}
+
+.intro--adjustment4{
+    transform: translateX(60px); 
+}
+
+.intro--adjustment5{
+    transform: translateX(145px); 
+}
+
+.intro--adjustment6{
+    transform: translateX(-57px); 
+}
+
+.intro--adjustment7{
+    transform: translateX(180px); 
+}
+
+.intro--adjustment8{
+transform: translateX(-138px);
+}
+.intro--adjustment9{
+    transform: translateX(20px);
+}
+.intro--adjustment10{
+    transform: translateX(13px);
 }
