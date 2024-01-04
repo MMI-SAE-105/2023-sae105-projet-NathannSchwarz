@@ -34,6 +34,8 @@ a{
     font-family: var(--font1);
     font-size: var(--text4);
     color: var(--white);
+    position: relative;
+    text-align: center;
 }
 
 .intropolice{
@@ -88,13 +90,12 @@ a{
 }
 
 button, input[type="button"], input[type="submit"] {
-    appearance: none; /* Désactive le style par défaut du navigateur */
-    border: none; /* Supprime le bord */
-    background-color: transparent; /* Fond transparent */
-    padding: 0; /* Pas de rembourrage */
-    margin: 0; /* Pas de marge */
-    font-family: inherit; /* Utilise la police de caractères par défaut du navigateur */
-    font-size: inherit; /* Taille de police par défaut */
-    cursor: pointer; /* Curseur en pointer pour indiquer que c'est interactif */
-    /* Autres styles personnalisés si nécessaire */
+    appearance: none; 
+    border: none; 
+    background-color: transparent; 
+    padding: 0; 
+    margin: 0; 
+    font-family: inherit;
+    font-size: inherit; 
+    cursor: pointer; 
 }

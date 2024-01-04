@@ -28,6 +28,7 @@ Soyez attentifs à l'ordre d'import :
 /* Règles layout */
 @import "/src/css/layout/header.css";
 @import "/src/css/layout/footer.css";
+@import "/src/css/layout/section.css";
 
 
 
@@ -35,3 +36,4 @@ Soyez attentifs à l'ordre d'import :
 
 @import "/src/css/components/menu.css";
 @import "/src/css/components/intro.css";
+@import "/src/css/components/index.css";
