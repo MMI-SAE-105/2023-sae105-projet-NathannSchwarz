@@ -13,44 +13,51 @@
     <header class="header header--home">
 
     
-        <a class="headermainlogo" href="index.html">
-            <img src="/public/icones/logo1.svg" alt="logo1">
-        </a>
+        <div class="linkpage">
+
+            <a class="headermainlogo" href="index.html">
+                <img src="/public/icones/logo1.svg" alt="logo1">
+            </a>
+
+            <div class="langmenu">
+                <a  class="headerlanglogo" href="/fr/index.html">
+                    <img src="/public/icones/logoFR.svg" alt="logoEN">
+                </a>
+                
+                <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
+                    <img class="taillemenu1" x-show="!menuIsOpen" src="/public/icones/menu.svg" alt="menu">
+                    <img class="taillemenu2" x-show="menuIsOpen" src="/public/icones/croix.svg" alt="croixmenu">
+                </button>
+            </div>
+            
+
+        </div>
         
-        <a  class="headerlanglogo" href="/fr/index.html">
-            <img src="/public/icones/logoFR.svg" alt="logoFR">
-        </a>
         
-        <button aria-controls="mainNav" @click="menuuuIsOpen = ! menuuuIsOpen"
-             class="header__menuBtnnn" x.x-transition:="classes">
-            <img src="/public/icones/menu.svg" alt="menu">
-        </button>
-        
-        <nav id="mainNav" 
-            x-show="menuuuIsOpen" 
-            x-transition.duration.800ms
-            class="menuuu"
-            >
+        <nav class="menu" id="mainNav" x-show="menuIsOpen" >
+
+            <h2 class="menutitle">MENU<h2>
+
             <ul class="menu__list">
 
                 <li class="menu__item">
-                    <a class="menu__link" href="article1.html">Inception, exploree </a>
+                    <a class="menu__link" href="article1.html"><p class="headertitlemenu">Inception, explored</p></a>
                 </li>
     
                 <li class="menu__item">
-                    <a class="menu__link" href="article2.html">Eames, l’audace</a>
+                    <a class="menu__link" href="article2.html"><p class="headertitlemenu">Eames, the audacity</p></a>
                 </li>
   
                 <li class="menu__item">
-                    <a class="menu__link" href="article3.html">Inception & interstellar</a>
+                    <a class="menu__link" href="article3.html"><p class="headertitlemenu">Inception & interstellar</p></a>
                 </li>
   
                 <li class="menu__item">
-                    <a class="menu__link" href="article4.html">The shooting script</a>
+                    <a class="menu__link" href="article4.html"><p class="headertitlemenu">The shooting script</p></a>
                 </li>
   
                 <li class="menu__item">
-                 <a class="menu__link" href="article5.html">Nolan : cinema reinvente</a>
+                 <a class="menu__link" href="article5.html"><p class="headertitlemenu">Nolan: cinema reinvented</p></a>
                 </li>
   
             </ul>
@@ -86,7 +93,7 @@
 
         <section class="Title">
 
-            <h1 class="header__title header__title--home1">INCEPTION</h1>
+           
             <h1 class="header__title header__title--home2">INCEPTION</h1>
             <h1 class="header__title header__title--home3">INCEPTION</h1>
             <h1 class="header__title header__title--home4">INCEPTION</h1>
@@ -117,10 +124,8 @@
             <h1 class="header__title2 header__title--homecentregauche">LITTLE</h1>
             <h1 class="header__title2 header__title--homecentredroit">BIGGER</h1>
 
-
-            <img class="headerbackground"  src="/public/img/background5.webp" alt="background1">
-
         </section>
+        <img class="headerbackground"  src="/public/img/background5.webp" alt="background1">
     
     </header>
 
@@ -187,52 +192,53 @@
     </main>
 
     <footer class="backgroundfooter">
+
+        <section class="footer">
         
+            <h3 class="footertitleposition footertitle">PROJECT MMI -<br> IUT FRANCHE COMTE</br></h3>
     
-        <h3 class="footertitle">PROJET MMI - IUT FRANCHE COMTE</h3>
+            <div class="footerposition">
+                <a href="/en/Contact.html">
+                    <h3 class="footertitle">CONTACT</h3>
+                </a>
+                
+                <a href="/en/about.html">
+                    <h3 class="footertitle">ABOUT</h3>
+                </a>
+               
+                <a href="/en/Glossary.html">
+                    <h3 class="footertitle">GLOSSARY</h3>
+                </a>
+                
+                <a href="/en/others projects.html">
+                    <h3 class="footertitle">OTHERS PROJECTS</h3>
+                </a>
+                
+            </div>
 
-        <div class="footerposition">
-            <a href="/fr/Contact.html">
-                <h3 class="footertitle">CONTACT</h3>
-            </a>
-            
-            <a href="/fr/A propos.html">
-                <h3 class="footertitle">ABOUT</h3>
-            </a>
-           
-            <a href="/fr/Glossaire.html">
-                <h3 class="footertitle">GLOSSARY</h3>
-            </a>
-            
-            <a href="/fr/Autres Projets.html">
-                <h3 class="footertitle">OTHERS PROJECTS</h3>
-            </a>
-            
-        </div>
+            <h3 class="footertitle subhead">NETWORKS</h3>
 
-        <h3 class="footertitle subhead">NETWORKS</h3>
-
-        <div class="footerreseaux">
-
-            <a class="instagram" href="https://www.instagram.com/nvt_scz/">
-                <img src="/public/icones/logo insta.svg" alt="Insta">
-            </a>
-
-            <a class="twitter" href="https://twitter.com/NathScz">
-                <img src="/public/icones/logo twitter.svg" alt="Twitter">
-            </a>
-
-            <a  class="Linkedin" href="https://www.linkedin.com/in/nathan-schwarz04/">
-                <img src="/public/icones/logo likedin.svg" alt="linkedin">
-            </a>
-
-        </div>
-
-        <a class="logo2" href="/fr/index.html">
-            <img src="/public/icones/logo2.svg" alt="Logo2">
-        </a>
-
+            <div class="footerreseaux">
     
+                <a href="https://www.instagram.com/nvt_scz/">
+                    <img src="/public/icones/instablanc.svg" alt="Instablanc">
+                </a>
+    
+                <a href="https://twitter.com/NathScz">
+                    <img src="/public/icones/twitterblanc.svg" alt="Twitterblanc">
+                </a>
+    
+                <a href="https://www.linkedin.com/in/nathan-schwarz04/">
+                    <img src="/public/icones/linkedinblanc.svg" alt="linkedinblanc">
+                </a>
+    
+            </div>
+    
+            <a class="logo2" href="/fr/index.html">
+                <img src="/public/icones/logo2.svg" alt="Logo2">
+            </a>
+
+        </section>
     </footer>
   
 </body>
