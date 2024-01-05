@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en" x-data="{menuIsOpen: false}" : class="{noscroll:menuIUsOpen,}">
+<html lang="en" x-data="{menuIsOpen: false}" :class="{noscroll:menuIsOpen,}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="https://unpkg.com/alpinejs"></script>
     <link rel="stylesheet" href="/src/style.css" />
-    <title>Projet/Article 4</title>
-    <link rel="icon" href="/public/icones/logo1.svg" type="image/x-icon">
+    <title>Project/Article 4</title>
+    <link rel="icon" href="/public/icons/logo1.svg" type="image/x-icon">
 </head>
 <body>
 
@@ -14,17 +14,17 @@
         <div class="linkpage">
 
             <a class="headermainlogo" href="index.html">
-                <img src="/public/icones/logo1.svg" alt="logo1">
+                <img src="/public/icons/logo1.svg" alt="logo1">
             </a>
 
             <div class="langmenu">
-                <a  class="headerlanglogo" href="/fr/index.html">
-                    <img src="/public/icones/logoFR.svg" alt="logoEN">
+                <a class="headerlanglogo" href="/en/index.html">
+                    <img src="/public/icons/logoEN.svg" alt="logoEN">
                 </a>
                 
                 <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
-                    <img class="taillemenu1" x-show="!menuIsOpen" src="/public/icones/menu.svg" alt="menu">
-                    <img class="taillemenu2" x-show="menuIsOpen" src="/public/icones/croix.svg" alt="croixmenu">
+                    <img class="taillemenu1" x-show="!menuIsOpen" src="/public/icons/menu.svg" alt="menu">
+                    <img class="taillemenu2" x-show="menuIsOpen" src="/public/icons/cross.svg" alt="crossmenu">
                 </button>
             </div>
             
@@ -34,64 +34,60 @@
         
         <nav class="menu" id="mainNav" x-show="menuIsOpen" >
 
-            <h2 class="menutitle">MENU<h2>
+            <h2 class="menutitle">MENU</h2>
 
             <ul class="menu__list">
 
                 <li class="menu__item">
-                    <a class="menu__link" href="article1.html"><p class="headertitlemenu">Inception, explored</p></a>
+                    <a class="menu__link" href="article1.html"><p class="headertitlemenu">Inception Explored</p></a>
                 </li>
     
                 <li class="menu__item">
-                    <a class="menu__link" href="article2.html"><p class="headertitlemenu">Eames, the audacity</p></a>
+                    <a class="menu__link" href="article2.html"><p class="headertitlemenu">Eames, The Audacity</p></a>
                 </li>
   
                 <li class="menu__item">
-                    <a class="menu__link" href="article3.html"><p class="headertitlemenu">Inception & interstellar</p></a>
+                    <a class="menu__link" href="article3.html"><p class="headertitlemenu">Inception & Interstellar</p></a>
                 </li>
   
                 <li class="menu__item">
-                    <a class="menu__link" href="article4.html"><p class="headertitlemenu">The shooting script</p></a>
+                    <a class="menu__link" href="article4.html"><p class="headertitlemenu">The Shooting Script</p></a>
                 </li>
   
                 <li class="menu__item">
-                 <a class="menu__link" href="article5.html"><p class="headertitlemenu">Nolan: cinema reinvented</p></a>
+                 <a class="menu__link" href="article5.html"><p class="headertitlemenu">Nolan: Reinventing Cinema</p></a>
                 </li>
   
             </ul>
   
-            <a class="logo2" href="/fr/index.html">
-                <img src="/public/icones/logo2.svg" alt="Logo2">
+            <a class="logo2" href="/en/index.html">
+                <img src="/public/icons/logo2.svg" alt="Logo2">
             </a>
   
             <ul class="menu__list2">
   
                 <li>
                     <a href="https://www.instagram.com/nvt_scz/">
-                    <img src="/public/icones/logo insta.svg" alt="Insta">
+                    <img src="/public/icons/logo_insta.svg" alt="Instagram">
                     </a>
                 </li>
     
                 <li>
                     <a href="https://twitter.com/NathScz">
-                    <img src="/public/icones/logo twitter.svg" alt="Twiiter">
+                    <img src="/public/icons/logo_twitter.svg" alt="Twitter">
                     </a>
                 </li>
     
                 <li>
                     <a href="https://www.linkedin.com/in/nathan-schwarz04/">
-                    <img src="/public/icones/logo likedin.svg" alt="Linkedin">
+                    <img src="/public/icons/logo_linkedin.svg" alt="LinkedIn">
                     </a>
                 </li>
             </ul>
         </nav>
-    
-
-
-
         <section class="Title">
 
-           
+            
             <h1 class="header__title header__title--home2">INCEPTION</h1>
             <h1 class="header__title header__title--home3">INCEPTION</h1>
             <h1 class="header__title header__title--home4">INCEPTION</h1>
@@ -108,51 +104,52 @@
             <h1 class="header__title header__title--home15">INCEPTION</h1>
             <h1 class="header__title header__title--home16">INCEPTION</h1>
             <h1 class="header__title header__title--home17">INCEPTION</h1>
-
+    
         </section>
         
-        <section class="Title2">
+        <section class="Title3">
     
-            <h1 class="header__title2 header__title--homecentregauche">THE</h1>
-            <h1 class="header__title2 header__title--homecentredoit">BOOK</h1>
-            <h1 class="header__title2 header__title--homecentre">SHOOTING</h1>
+            <h1 class="header__title2 header__title--homecentregauche intro--adjustment6">THE</h1>
+            <h1 class="header__title2 header__title--homecentredoit intro--adjustment7">SHOOTING</h1>
+            <h1 class="header__title2 header__title--homecentre intro--adjustment4">SCRIPT</h1>
             <h1 class="header__title2 header__title--homecentredroit">SCRIPT</h1>
-            
-    
-            <img class="headerbackground"  src="/public/img/background2.webp" alt="background2">
-    
+        
         </section>
+
+        <img class="headerbackground"  src="/public/img/background5.webp" alt="background2">
 
     </header>
 
     <main class="backgroundcolor5">
-
-        <section class="articleintro">
-            <h4 class="articletitle">A priceless piece of tographic literature</h4>
-            <div class="articleimg1">
-                <img class="articleimg1" src="/public/img/book4.webp" alt="Book4">
-                <figcaption class="figcaptionimg1">Shooting Script page 1</figcaption>
-            </div>
-            
-        </section>
-
-        <p class="contenu textuel">Delve deeper into the complex world of plot and character. This book, containing the film's original script as well as annotations and reflections by director Christopher Nolan, serves as a gateway to a deeper understanding of the story and themes explored in the film.</p>
-        <p class="contenu textuel">Christopher Nolan's annotations in the book also offer valuable insight into his artistic vision and intentions behind certain key scenes and lines. He explains how he constructed the complex plot, how he shaped the characters and how he played with the notion of reality and dream throughout the film.</p>
-
-        <div class="articleimg2">
-            <img src="/public/img/book1.webp" alt="book1">
-            <figcaption class="figcaptionimg2">Shooting Script page 2</figcaption>
-        </div>
-
-        <p class="contenu textuel">The book also allows readers to take the time to analyze the film's underlying philosophical themes, such as the nature of reality, guilt and the quest for truth. It offers keys to deciphering the many layers of the story and the subtle details that may escape a first viewing of the film.</p>
-
-        <div class="articleimg2">
-            <img src="/public/img/book3.webp" alt="book3">
-            <figcaption class="figcaptionimg2">Shooting Script page 3</figcaption>
-        </div>
-
-        <p class="contenu textuel">Ultimately, "Inception: The Shooting Script" is an invitation to dive deeper into the cinematic universe of Inception and explore its darker corners. It allows fans of the film to further immerse themselves in the plot, characters and themes, while offering a unique perspective on Christopher Nolan's creativity and vision as a director. In this way, the book serves as both an extension of the cinematic experience and a thought-provoking tool for those seeking to uncover the hidden layers of one of the most complex and beloved films of the last decade. In short, it embodies the idea of "aiming bigger" not only in terms of narrative exploration, but also in terms of intellectual and artistic exploration.</p>
        
+        <section class="mainposition">
+
+            <section class="articleintro">
+                <h4 class="articletitle left">Invaluable Piece of Film Literature</h4>
+                <div class="articleimg1">
+                    <img class="articleimg1" src="/public/img/book4.webp" alt="Book4">
+                    <figcaption class="figcaptionimg4">Pages from the Shooting Script</figcaption>
+                </div>
+                
+            </section>
+
+            <p class="contenutextuel">Delve deeper into the complex world of the plot and characters. This book, containing the original script of the film along with annotations and insights from director Christopher Nolan, serves as a gateway to a deeper understanding of the story and themes explored in the film.</p>
+            <p class="contenutextuel">Christopher Nolan's annotations in the book also offer valuable insight into his artistic vision and intentions behind certain key scenes and dialogues. He explains how he constructed the intricate plot, shaped the characters, and played with the notion of reality and dreams throughout the film.</p>
+
+            <div class="articleimg2">
+                <img src="/public/img/book1.webp" alt="book1">
+                <figcaption class="figcaptionimg4">Pages from the Shooting Script</figcaption>
+            </div>
+
+            <p class="contenutextuel">The book also allows readers to take the time to analyze the underlying philosophical themes of the film, such as the nature of reality, guilt, and the quest for truth. It provides keys to decipher the many layers of the story and subtle details that may escape a first viewing of the film.</p>
+
+            <div class="articleimg2">
+                <img src="/public/img/book3.webp" alt="book3">
+                <figcaption class="figcaptionimg4">Pages from the Shooting Script</figcaption>
+            </div>
+
+            <p class="contenutextuel">Ultimately, "Inception: The Shooting Script" is an invitation to dive deeper into the cinematic universe of Inception and explore its darkest corners. It allows fans of the film to immerse themselves further in the plot, characters, and themes, while offering a unique perspective on Christopher Nolan's creativity and vision as a director. In this, the book serves both as an extension of the cinematic experience and a tool for reflection for those seeking to uncover the hidden layers of one of the most complex and beloved films of the past decade. In essence, it embodies the idea of "aiming bigger" not only in terms of narrative exploration but also in terms of intellectual and artistic exploration.</p>
+        </section>
     </main>
 
 
@@ -160,14 +157,14 @@
 
         <section class="footer">
         
-            <h3 class="footertitleposition footertitle">PROJECT MMI -<br> IUT FRANCHE COMTE</br></h3>
+            <h3 class="footertitleposition footertitle">MMI PROJECT -<br>FRANCHE COMTE IUT</br></h3>
     
             <div class="footerposition">
                 <a href="/en/Contact.html">
                     <h3 class="footertitle">CONTACT</h3>
                 </a>
                 
-                <a href="/en/about.html">
+                <a href="/en/About.html">
                     <h3 class="footertitle">ABOUT</h3>
                 </a>
                
@@ -175,36 +172,36 @@
                     <h3 class="footertitle">GLOSSARY</h3>
                 </a>
                 
-                <a href="/en/others projects.html">
-                    <h3 class="footertitle">OTHERS PROJECTS</h3>
+                <a href="/en/Other Projects.html">
+                    <h3 class="footertitle">OTHER PROJECTS</h3>
                 </a>
                 
             </div>
 
-            <h3 class="footertitle subhead">NETWORKS</h3>
+            <h3 class="footertitle subhead">SOCIAL MEDIA</h3>
 
             <div class="footerreseaux">
     
                 <a href="https://www.instagram.com/nvt_scz/">
-                    <img src="/public/icones/instablanc.svg" alt="Instablanc">
+                    <img src="/public/icons/instawhite.svg" alt="Instagram">
                 </a>
     
                 <a href="https://twitter.com/NathScz">
-                    <img src="/public/icones/twitterblanc.svg" alt="Twitterblanc">
+                    <img src="/public/icons/twitterwhite.svg" alt="Twitter">
                 </a>
     
                 <a href="https://www.linkedin.com/in/nathan-schwarz04/">
-                    <img src="/public/icones/linkedinblanc.svg" alt="linkedinblanc">
+                    <img src="/public/icons/linkedinwhite.svg" alt="LinkedIn">
                 </a>
     
             </div>
     
-            <a class="logo2" href="/fr/index.html">
-                <img src="/public/icones/logo2.svg" alt="Logo2">
+            <a class="logo2" href="/en/index.html">
+                <img src="/public/icons/logo2.svg" alt="Logo2">
             </a>
 
         </section>
     </footer>
-    
+  
 </body>
 </html>

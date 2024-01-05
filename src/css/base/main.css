@@ -48,6 +48,7 @@ a{
     font-family: var(--font2);
     font-size: var(--text8);
     color: var(--white);
+    max-width: 100%;
 }
 
 .introtxt1{

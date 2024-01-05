@@ -18,7 +18,7 @@
             </a>
 
             <div class="langmenu">
-                <a  class="headerlanglogo" href="/fr/index.html">
+                <a  class="headerlanglogo" href="/fr/Contact.html">
                     <img src="/public/icones/logoFR.svg" alt="logoEN">
                 </a>
                 
@@ -90,35 +90,36 @@
 
     <main class="backgroundcolor1">
 
-        <h2 class="H2title">Contact form</h2>
-
-        <form class="formulairecontact" action="/submit_form" method="post">
-
-            <div class="nomprénom">
-
-                <label for="fname"></label><br>
-                <input type="text" id="fname" name="fname" placeholder="Name" required><br>
+        <h2 class="H2title">Contact Form</h2>
     
-                <label for="email"></label><br>
-                <input type="text" id="fname" name="fname" placeholder="First name" required><br>
-                
+        <form class="contactform" action="/submit_form" method="post">
+    
+            <div class="firstname_lastname">
+    
+                <span>
+                    <label for="fname"></label><br>
+                    <input class="formtxt namestyle" type="text" id="fname" name="fname" placeholder="First Name" required>
+                    <label for="lname"></label>
+                    <input class="formtxt namestyle" type="text" id="lname" name="lname" placeholder="Last Name" required><br>
+                </span>
+    
             </div>
-
-            
+    
             <label for="email"></label><br>
-                <input type="email" id="email" name="email" placeholder="Email" required><br>
-                
-            <label for="email"></label><br>
-                <input type="text" id="fname" name="fname" placeholder="Object" required><br>
-
+            <input class="formtxt" type="email" id="email" name="email" placeholder="Email" required><br>
+    
+            <label for="subject"></label><br>
+            <input class="formtxt" type="text" id="subject" name="subject" placeholder="Subject" required><br>
+    
             <label for="message"></label><br>
-            <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea><br>
-
-            <button class="btn" type="submit">Send</button>
-
+            <textarea class="formtxt" id="message" name="message" rows="5" placeholder="Message" required></textarea><br>
+    
+            <button class="btn formtxt" type="submit">Send</button>
+    
         </form> 
     
     </main>
+    
 
 
     <footer class="backgroundfooter">

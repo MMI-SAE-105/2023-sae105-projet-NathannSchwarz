@@ -1,19 +1,24 @@
 .projetslignes{
     display: flex;
-    margin-bottom: 30px;   
+    margin-bottom: 30px; 
+    justify-content: space-evenly;
 }
 
 .projectimg{
-    height: 117px;
-    width: 124px;
+    height: 165px;
+    width: 100%;
 }
 
 .projet1{
     text-align: center;
-    margin-left: 20px;
+  
+    max-width: 50%;
+    width: 165px;
 }
 
 .projet2{
     text-align: center;
-    margin-right: 20px;
+ 
+    max-width: 50%;
+    width: 165px;
 }
