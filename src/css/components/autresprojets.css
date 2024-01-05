@@ -1,0 +1,19 @@
+.projetslignes{
+    display: flex;
+    margin-bottom: 30px;   
+}
+
+.projectimg{
+    height: 117px;
+    width: 124px;
+}
+
+.projet1{
+    text-align: center;
+    margin-left: 20px;
+}
+
+.projet2{
+    text-align: center;
+    margin-right: 20px;
+}

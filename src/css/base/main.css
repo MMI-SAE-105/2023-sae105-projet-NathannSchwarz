@@ -44,6 +44,12 @@ a{
     font-size: var(--text8);
 }
 
+.policeprojects{
+    font-family: var(--font2);
+    font-size: var(--text8);
+    color: var(--white);
+}
+
 .introtxt1{
     color: var(--red);
 }
