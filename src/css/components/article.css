@@ -15,15 +15,6 @@
     margin-left: 15px;
 }
 
-.figcaptionimg1{
-    text-align: right;
-    
-}
-
-.figcaptionimg3{
-    text-align: left;
-}
-
 .contenutextuel{
     line-height: 25px;
     word-spacing: 1px;
@@ -31,4 +22,27 @@
 
 .figcaptionimg4{
     text-align: right;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+
+
+.textsize{
+    margin-right: 20px;
+}
+
+
+.uptext{
+    margin-top: 0px;
+}
+
+.uptext2{
+    margin-top: 15px;
 }

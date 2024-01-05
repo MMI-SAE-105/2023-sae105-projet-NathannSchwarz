@@ -69,6 +69,7 @@ a{
     font-family: var(--font2);
     font-size: var(--text8);
     color: var(--beige);
+    text-align: right;
 }
 
 .figcaptionimg2{
@@ -80,6 +81,13 @@ a{
     font-family: var(--font2);
     font-size: var(--text8);
     color: var(--beige);
+    text-align: left;
+}
+
+.figcaptionimg4{
+    font-family: var(--font2);
+    font-size: var(--text8);
+    text-align: right;
 }
 
 .white{
