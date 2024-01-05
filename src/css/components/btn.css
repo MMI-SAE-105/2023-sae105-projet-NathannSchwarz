@@ -1,0 +1,10 @@
+.btn{
+    border: 2px solid var(--white) ;
+    padding: 10px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    border-radius: 20px;
+    color: var(--beige);
+    margin-top: 20px;
+}

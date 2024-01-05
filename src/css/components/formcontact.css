@@ -1,0 +1,41 @@
+.nomprénom{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+
+
+.formtxt{
+    all: unset;
+    font-family: var(--font1);
+    font-size: var(--font8);
+    color: var(--white);
+    margin-bottom: 10px;
+    flex: 1; 
+    margin-right: 10px;
+    background-color: transparent;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--white) ;
+    display: inline-block;
+    
+}
+
+
+.formulairecontact{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.namestyle{
+    margin-right: -100px;
+    border-bottom-width: -10px;
+}
+
+
+
+
+

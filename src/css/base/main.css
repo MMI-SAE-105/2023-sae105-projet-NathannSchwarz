@@ -35,7 +35,8 @@ a{
     font-size: var(--text4);
     color: var(--white);
     position: relative;
- text-align: center;
+     text-align: center;
+    margin-top: 80px;
 }
 
 .intropolice{

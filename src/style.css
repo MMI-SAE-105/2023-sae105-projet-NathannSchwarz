@@ -38,3 +38,6 @@ Soyez attentifs à l'ordre d'import :
 @import "/src/css/components/intro.css";
 @import "/src/css/components/index.css";
 @import "/src/css/components/article.css";
+@import "/src/css/components/formcontact.css";
+@import "/src/css/components/btn.css";
+@import "/src/css/components/glossary.css";
