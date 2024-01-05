@@ -66,6 +66,12 @@ a{
     font-size: var(--text6);
 }
 
+.contenutextuel1{
+    font-family: var(--font3);
+    font-size: var(--text6);
+    color: var(--white);
+}
+
 .figcaptionimg1{
     font-family: var(--font2);
     font-size: var(--text8);
