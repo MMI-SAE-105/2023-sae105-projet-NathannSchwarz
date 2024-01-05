@@ -1,0 +1,34 @@
+.articleintro{
+    display: flex;
+    text-align: center;
+}
+
+.articleimg1{
+    height: 100%;
+    width: 100%;
+}
+
+.articletitle{
+    position: relative;
+    transform: translateY(0px);
+    line-height: 2rem;
+    margin-left: 15px;
+}
+
+.figcaptionimg1{
+    text-align: right;
+    
+}
+
+.figcaptionimg3{
+    text-align: left;
+}
+
+.contenutextuel{
+    line-height: 25px;
+    word-spacing: 1px;
+}
+
+.figcaptionimg4{
+    text-align: right;
+}

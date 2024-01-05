@@ -5,7 +5,7 @@
 }
 
 html,
-body {
+body{
     overflow-x: hidden;
     scrollbar-width: none; /* Pour Firefox */
     -ms-overflow-style: none; /* Pour Internet Explorer/Edge */
@@ -35,7 +35,7 @@ a{
     font-size: var(--text4);
     color: var(--white);
     position: relative;
-    text-align: center;
+ text-align: center;
 }
 
 .intropolice{
@@ -74,6 +74,12 @@ a{
 .figcaptionimg2{
     font-family: var(--font2);
     font-size: var(--text5);
+}
+
+.figcaptionimg3{
+    font-family: var(--font2);
+    font-size: var(--text8);
+    color: var(--beige);
 }
 
 .white{
