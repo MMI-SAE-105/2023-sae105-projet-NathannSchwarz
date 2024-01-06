@@ -58,3 +58,10 @@
     margin-right: -20px;
     padding-top: 10px;
 }
+
+.background8{
+    position: absolute;
+    height: 150%;
+    margin-top: -80px;
+    z-index: -1;
+}

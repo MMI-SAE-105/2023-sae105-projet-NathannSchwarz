@@ -17,3 +17,9 @@
 .autresprojets{
     left: 20px;
 }
+
+.apropos{
+    margin-left: 20px;
+    margin-right: 20px;
+    z-index: 30;
+}

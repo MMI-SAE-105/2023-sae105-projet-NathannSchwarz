@@ -1,0 +1,12 @@
+
+.imgcrea{
+    border: 2px solid var(--blue1);
+    margin-left: 50px;
+    width: 80%; 
+}
+
+.imgcrea2{
+    border: 2px solid var(--blue1);
+    margin-left: 20px;
+    width: 80%; 
+}

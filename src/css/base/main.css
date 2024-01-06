@@ -130,6 +130,14 @@ a{
     color: var(--beige);
 }
 
+.black{
+    color: var(--black);
+}
+
+.red{
+    color: var(--red);
+}
+
 .menu_link{
     font-family: var(--font1);
     font-size: var(--text1);
