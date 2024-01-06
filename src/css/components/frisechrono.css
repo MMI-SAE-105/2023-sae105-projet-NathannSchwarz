@@ -1,0 +1,27 @@
+.Titleposition{
+    text-align: center;
+}
+
+
+
+.frise {
+    border-left: 2px solid white;
+    transform: translateX(50%);
+    position: relative; 
+    padding-top: 10px;
+    
+}
+
+.horiligneleft {
+    position: relative; 
+    left: -180px;
+    padding-bottom: 20px;
+
+}
+
+.horiligneright {
+    position: relative; 
+    left: 15px;
+    padding-bottom: 20px;
+
+}

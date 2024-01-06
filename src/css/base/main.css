@@ -79,6 +79,24 @@ a{
     color: var(--white);
 }
 
+.frisetititle{
+    font-family: var(--font2);
+    font-size: var(--text5);
+    color: var(--white);
+}
+
+.frisesubtitle{
+    font-family: var(--font1);
+    font-size: var(--text4);
+    color: var(--beige);
+}
+
+.fontfrise{
+    font-family: var(--font2);
+    font-size: var(--text8);
+    color: var(--white);
+}
+
 .figcaptionimg1{
     font-family: var(--font2);
     font-size: var(--text8);
