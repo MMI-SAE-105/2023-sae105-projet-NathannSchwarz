@@ -7,20 +7,27 @@
 .frise {
     transform: translateX(50%);
     position: relative; 
-    
+    margin-bottom: 30px;
+    padding-bottom: 30px;
     
 }
 
 .horiligneleft {
-    position: relative; 
+    
+    position: absolute; 
     left: -180px;
-    padding-bottom: 130px;
+    padding-bottom: 30%;
+    padding-top: 2px;
+   
+    
 }
 
 .horiligneright {
+    display: flex;
     position: relative; 
     left: 15px;
-    padding-bottom: 48px;
+    padding-bottom: 45px;
+    padding-top: 20%;
     
 
 }
