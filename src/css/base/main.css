@@ -7,14 +7,10 @@
 html,
 body{
     overflow-x: hidden;
-    scrollbar-width: none; /* Pour Firefox */
-    -ms-overflow-style: none; /* Pour Internet Explorer/Edge */
     
 }
 
-body::-webkit-scrollbar {
-    display: none; /* Pour Chrome, Safari, et Edge basé sur Chromium */
-}
+
 
 
 

@@ -253,16 +253,22 @@
 .header__title--homecentregauche{
     transform: translateX(61px); 
     text-align: right;
+    
 }
 
 .header__title--homecentredroit{
     transform: translateX(176px); 
     text-align: left;
+    max-width: 100px;
 }
 
 .header__title--homecentre{
     transform: translateX(75px); 
     text-align: center;
+}
+
+.header__title--homecentretellar{
+    max-width: 100px;
 }
 
 
