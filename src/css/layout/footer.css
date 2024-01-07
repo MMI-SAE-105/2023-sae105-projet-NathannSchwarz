@@ -22,10 +22,12 @@
     display: flex;
     align-items: center;
     gap:25px; 
+    padding-bottom: 20px;
 }
 
 .logo2{
     margin-top: -20px;
+    padding-top: -30px;
     padding-right: 160px;
 }
 

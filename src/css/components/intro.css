@@ -253,6 +253,7 @@
 .header__title--homecentregauche{
     transform: translateX(61px); 
     text-align: right;
+    margin-left: 20px;
     
 }
 
