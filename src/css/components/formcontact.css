@@ -1,7 +1,8 @@
 .nomprénom{
-    display: flex;
-    margin-bottom: 10px;
-
+    display: flex; 
+    justify-content: space-between;
+    gap : 50px;
+    margin-right: 9px;
 }
 
 
@@ -17,7 +18,7 @@
     background-color: transparent;
     padding-bottom: 10px;
     border-bottom: 2px solid var(--white) ;
-    display: inline-block;
+    display: inline-block;    
     
 }
 
@@ -29,10 +30,11 @@
     margin-right: 20px;
 }
 
-
 .namestyle{
+    width: 100%;
     
 }
+
 
 
 
