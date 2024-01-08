@@ -11,6 +11,7 @@
 <body>
 
     <header class="header header--home">
+        
         <div class="linkpage">
 
             <a class="headermainlogo" href="index.html">
@@ -19,7 +20,7 @@
 
             <div class="langmenu">
                 <a  class="headerlanglogo" href="/fr/Contact.html">
-                    <img src="/public/icones/logoFR.svg" alt="logoEN">
+                    <img src="/public/icones/logoFR.svg" alt="logoFR">
                 </a>
                 
                 <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
@@ -55,7 +56,7 @@
                 </li>
   
                 <li class="menu__item">
-                 <a class="menu__link" href="article5.html"><p class="headertitlemenu">Nolan: cinema reinvented</p></a>
+                 <a class="menu__link" href="article5.html"><p class="headertitlemenu">Nolan : cinema reinvented</p></a>
                 </li>
   
             </ul>
@@ -85,37 +86,42 @@
                 </li>
             </ul>
         </nav>
-    
     </header>
 
     <main class="backgroundcolor1">
 
-        <h2 class="H2title">Contact Form</h2>
-    
-        <form class="contactform" action="/submit_form" method="post">
-    
-            <div class="firstname_lastname">
-    
+        <h2 class="H2title">Formulaire de contact</h2>
+
+        <form class="formulairecontact" action="/submit_form" method="post">
+
+            <div class="nomprénom">
+
                 <span>
                     <label for="fname"></label><br>
-                    <input class="formtxt namestyle" type="text" id="fname" name="fname" placeholder="First Name" required>
-                    <label for="lname"></label>
-                    <input class="formtxt namestyle" type="text" id="lname" name="lname" placeholder="Last Name" required><br>
+                    <input class="formtxt namestyle "type="text" id="fname" name="fname" placeholder="Nom" required>
+                    <label for="email"></label>
+                    <input class="formtxt namestyle  "type="text" id="fname" name="fname" placeholder="Prenom" required><br>
                 </span>
-    
+
+                <span>
+                   
+                </span>
+                
+                
             </div>
-    
+
+            
             <label for="email"></label><br>
-            <input class="formtxt" type="email" id="email" name="email" placeholder="Email" required><br>
-    
-            <label for="subject"></label><br>
-            <input class="formtxt" type="text" id="subject" name="subject" placeholder="Subject" required><br>
-    
+                <input class="formtxt type="email" id="email" name="email" placeholder="Email" required><br>
+                
+            <label for="email"></label><br>
+                <input class="formtxt type="text" id="fname" name="fname" placeholder="Objet" required><br>
+
             <label for="message"></label><br>
-            <textarea class="formtxt" id="message" name="message" rows="5" placeholder="Message" required></textarea><br>
-    
-            <button class="btn formtxt" type="submit">Send</button>
-    
+            <textarea class="formtxt id="message" name="message" rows="5" placeholder="Message" required></textarea><br>
+
+            <button class="btn formtxt" type="submit">Envoyer</button>
+
         </form> 
     
     </main>

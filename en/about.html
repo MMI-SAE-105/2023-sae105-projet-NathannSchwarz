@@ -19,13 +19,13 @@
             </a>
 
             <div class="langmenu">
-                <a  class="headerlanglogo" href="/fr/A propos.html">
+                <a  class="headerlanglogo" href="/fr/about.html">
                     <img src="/public/icones/logoFR.svg" alt="logoFR">
                 </a>
                 
-                <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = !menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
+                <button class="headermenu" aria-controls="mainNav" @click="menuIsOpen = ! menuIsOpen" class="header__menuBtn" x.x-transition:="classes">
                     <img class="taillemenu1" x-show="!menuIsOpen" src="/public/icones/menu.svg" alt="menu">
-                    <img class="taillemenu2" x-show="menuIsOpen" src="/public/icones/croix.svg" alt="menu cross">
+                    <img class="taillemenu2" x-show="menuIsOpen" src="/public/icones/croix.svg" alt="croixmenu">
                 </button>
             </div>
             
@@ -40,29 +40,29 @@
             <ul class="menu__list">
 
                 <li class="menu__item">
-                    <a class="menu__link" href="article1.html"><p class="headertitlemenu">Inception, Explored</p></a>
+                    <a class="menu__link" href="article1.html"><p class="headertitlemenu">Inception, explored</p></a>
                 </li>
     
                 <li class="menu__item">
-                    <a class="menu__link" href="article2.html"><p class="headertitlemenu">Eames, The Bold</p></a>
+                    <a class="menu__link" href="article2.html"><p class="headertitlemenu">Eames, the audacity</p></a>
                 </li>
   
                 <li class="menu__item">
-                    <a class="menu__link" href="article3.html"><p class="headertitlemenu">Inception & Interstellar</p></a>
+                    <a class="menu__link" href="article3.html"><p class="headertitlemenu">Inception & interstellar</p></a>
                 </li>
   
                 <li class="menu__item">
-                    <a class="menu__link" href="article4.html"><p class="headertitlemenu">The Shooting Script</p></a>
+                    <a class="menu__link" href="article4.html"><p class="headertitlemenu">The shooting script</p></a>
                 </li>
   
                 <li class="menu__item">
-                 <a class="menu__link" href="article5.html"><p class="headertitlemenu">Nolan: Reinventing Cinema</p></a>
+                 <a class="menu__link" href="article5.html"><p class="headertitlemenu">Nolan : cinema reinvented</p></a>
                 </li>
   
             </ul>
   
             <a class="logo2" href="/fr/index.html">
-                <img src="/public/icons/logo2.svg" alt="Logo2">
+                <img src="/public/icones/logo2.svg" alt="Logo2">
             </a>
   
             <ul class="menu__list2">
@@ -75,7 +75,7 @@
     
                 <li>
                     <a href="https://twitter.com/NathScz">
-                    <img src="/public/icones/logo twitter.svg" alt="Twitter">
+                    <img src="/public/icones/logo twitter.svg" alt="Twiiter">
                     </a>
                 </li>
     
@@ -88,20 +88,24 @@
         </nav>
     </header>
 
-    <main class="backgroundcolor1">
-        <h2 class="H2title">About</h2>
+    <main>
+        <img class="background8" src="/public/img/background7.png" alt="photonathanschwarz">
 
-        <div class="textapropos">
-
-            <p class="intropolice"> I introduce myself, Nathan SCHWARZ, a first-year student in the MMI program at the IUT of Belfort-Montbéliard. The site you are exploring is the result of my first concrete project.</p>
-            <img src="/public/img/moi.webp" alt="nathanschwarzphoto">
-
-        </div>
-
-        <p class="contenu textuel">Realized from September to January 2023 in an academic context. This project is part of a problem statement by Mr. Malso, focusing on a movie quote.</p>
-        <p class="contenu textuel">The purpose of this project is to delve into the film Inception by highlighting the famous quote by Eames: "Don't be afraid to dream a little bigger". I chose Inception not only because of my interest in this film, but also because of its fascinating exploration of human psychology.</p>
-        <p class="contenu textuel">The concept of this project is to immerse users deeper into the meanders of the mind depending on the information they wish to discover about Inception through the site. I hope you enjoyed or will enjoy this experience in the future.</p>
-        <p class="contenu textuel">Thank you for your interest and I remain at your disposal for any questions or comments.</p>
+        <section class="apropos">
+            <h2 class="H2title black">About</h2>
+            <p class="intropolice black">Allow me to introduce myself, I'm Nathan SCHWARZ, a first-year student in the MMI program at the IUT of Belfort-Montbéliard. The website you're exploring is the result of my first concrete project.</p>
+        
+            <img class="imgcrea" src="/public/img/moi.jpg" alt="Nathan Schwarz's photo">
+        
+            <p class="contenutextuel black">Developed from September to January 2023 <span class="white">in an</span> academic context. This project is part of an issue raised by <span class="white">Mr. Malso</span>, focusing on a movie quote.</p>
+            <p class="contenutextuel black">The purpose of this project is to explore the movie Inception by highlighting the famous quote by Eames: <em><span class="red">"Don't be afraid to dream a little bigger."</span></em> I chose Inception not only because of my interest in this film but also because of its fascinating exploration of the human mind.</p>
+            <img class="imgcrea2" src="/public/img/moi2.jpeg" alt="Nathan Schwarz's photo 2">
+            <p class="contenutextuel black">The concept of this project is to dive users deeper into the intricacies of the mind based on the information they wish to discover about Inception through the website. I hope <span class="white">you enjoyed, enjoy, or will enjoy this experience.</span></p>
+            <p class="intropolice black">Thank you for your <span class="white">interest, and I'm here</span> at your service <span class="white">for any questions</span> or comments.</p>
+       
+        </section>
+        
+      
     </main>
     
     <footer class="backgroundfooter">
@@ -111,19 +115,19 @@
             <h3 class="footertitleposition footertitle">MMI PROJECT -<br> IUT FRANCHE COMTE</br></h3>
     
             <div class="footerposition">
-                <a href="/fr/Contact.html">
+                <a href="/en/Contact.html">
                     <h3 class="footertitle">CONTACT</h3>
                 </a>
                 
-                <a href="/fr/A propos.html">
+                <a href="/en/about.html propos.html">
                     <h3 class="footertitle">ABOUT</h3>
                 </a>
                
-                <a href="/fr/Glossaire.html">
+                <a href="/en/Glossary.html">
                     <h3 class="footertitle">GLOSSARY</h3>
                 </a>
                 
-                <a href="/fr/Autres Projets.html">
+                <a href="/en/others projects.html">
                     <h3 class="footertitle">OTHER PROJECTS</h3>
                 </a>
                 
