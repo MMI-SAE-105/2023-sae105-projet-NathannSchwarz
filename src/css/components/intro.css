@@ -272,6 +272,14 @@
     max-width: 100px;
 }
 
+.positiontitle{
+    padding-top: 89px;
+}
+
+.positiontitle2{
+    margin-top: -87px;
+}
+
 
 .intro--adjustment1{
     transform: translateX(-10px); 

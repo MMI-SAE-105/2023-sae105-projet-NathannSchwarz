@@ -1,8 +1,8 @@
-/*.nomprénom{
+.nomprénom{
     display: flex;
-    justify-content: space-between;
     margin-bottom: 10px;
-}*/
+
+}
 
 
 
@@ -31,10 +31,8 @@
 
 
 .namestyle{
-    margin-right: -100px;
-    border-bottom-width: -10px;
+    margin-right: 10px; 
 }
-
 
 
 
