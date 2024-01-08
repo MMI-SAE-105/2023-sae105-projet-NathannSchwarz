@@ -2,7 +2,7 @@
 - NOM : SCHWARZ
 - PRÉNOM : NATHAN
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : https://www.figma.com/file/7yJdKrp1GevFpLa0kymUK9/Maquettes-projet-individuel-%E2%80%94-Nathan-SCHWARZ-MMI-A2?type=design&node-id=1506%3A168&mode=design&t=vwfU4GjJde5ImVWB-1
 
 # Structure de départ pour le projet individuel.
 
