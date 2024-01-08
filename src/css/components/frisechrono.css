@@ -1,5 +1,6 @@
 .Titleposition{
     text-align: center;
+    padding-bottom: 20px;
 }
 
 
@@ -9,6 +10,7 @@
     position: relative; 
     margin-bottom: 30px;
     padding-bottom: 30px;
+    margin-top: 70px;
     
 }
 
@@ -16,25 +18,49 @@
     
     position: absolute; 
     left: -180px;
-    padding-bottom: 30%;
-    padding-top: 2px;
-   
-    
+    padding-top: 2px;  
+    flex-direction: column;
 }
 
 .horiligneright {
     display: flex;
     position: relative; 
     left: 15px;
-    padding-bottom: 45px;
-    padding-top: 20%;
+    flex-direction: column;
+    padding-top: 24%;
+    margin-bottom: -45px;
     
-
 }
+
 
 .imgfrise{
     position : absolute;
-    left: 40%;
+    left: 40%;  
+    margin-top: 50px;
     
-    
+}
+
+
+.moviefrise{
+    display: flex;
+    padding-bottom: 20%;
+}
+
+
+.taillevideo{
+    height: 120px;
+    width: 160px;
+    border: 2px solid var(--white);
+}
+
+.vidleft{
+    margin-left: -190px;
+    margin-top: -80px;
+
+}
+
+.vidright{
+    margin-top: -80px;
+    margin-bottom: 200px;
+    margin-left: 200px;
 }
