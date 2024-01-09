@@ -277,7 +277,11 @@
 }
 
 .positiontitle2{
-    margin-top: -87px;
+    padding-top: -10px;
+}
+
+.positiontitle3{
+    margin-top: -86px;
 }
 
 
@@ -318,3 +322,13 @@ transform: translateX(-138px);
 .intro--adjustment10{
     transform: translateX(13px);
 }
+.intro--adjustment11{
+    transform: translateX(0px);
+}
+.intro--adjustment12{
+    transform: translateX(85px);
+}
+.intro--adjustment13{
+    transform: translateX(75px);
+}
+

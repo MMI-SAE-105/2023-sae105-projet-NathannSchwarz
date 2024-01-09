@@ -3,3 +3,14 @@ img {
     height: auto;
 }
 
+figure{
+    max-width: 100%;
+    height: auto;
+}
+
+.figureimg{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    margin-right: 20px;
+}
