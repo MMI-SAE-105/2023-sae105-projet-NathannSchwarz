@@ -36,7 +36,17 @@
     padding-bottom: 10px;
 }
 
-
+.footer__copy {
+    font-family: var(--font3);
+    font-size: var(--text8);
+    color: var(--white);
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+    text-align: center;
+}
 
 
 
