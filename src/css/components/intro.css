@@ -135,7 +135,7 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     white-space: nowrap;
-    left: 50%;
+    left: 45%;
     top: 50%;
     transform: translate(-50%, -43%);
     letter-spacing: 2rem;
@@ -148,7 +148,7 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     white-space: nowrap;
-    left: 55%;
+    left: 50%;
     top: 50%;
     transform: translate(-50%, -43%);
     letter-spacing: 2rem;
@@ -162,7 +162,7 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     white-space: nowrap;
-    left: 60%;
+    left: 55%;
     top: 50%;
     transform: translate(-50%, -43%);
     letter-spacing: 2rem;
@@ -176,7 +176,7 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     white-space: nowrap;
-    left: 65%;
+    left: 60%;
     top: 50%;
     transform: translate(-50%, -43%);
     letter-spacing: 2rem;
@@ -190,7 +190,7 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     white-space: nowrap;
-    left: 70%;
+    left: 65%;
     top: 50%;
     transform: translate(-50%, -43%);
     letter-spacing: 2rem;
@@ -204,7 +204,7 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     white-space: nowrap;
-    left: 75%;
+    left: 70%;
     top: 50%;
     transform: translate(-50%, -43%);
     letter-spacing: 2rem;
@@ -218,26 +218,14 @@
     writing-mode: vertical-rl;
     text-orientation: upright;
     white-space: nowrap;
-    left: 80%;
+    left: 75%;
     top: 50%;
     transform: translate(-50%, -43%);
     letter-spacing: 2rem;
     filter: blur(18px); 
 }
 
-.header__title--home18{
-    color:var(--blue4);
-    position: absolute;
-    text-align: center;
-    writing-mode: vertical-rl;
-    text-orientation: upright;
-    white-space: nowrap;
-    left: 85%;
-    top: 50%;
-    transform: translate(-50%, -43%);
-    letter-spacing: 2rem;
-    filter: blur(20px); 
-}
+
 
 
 .Title2{
